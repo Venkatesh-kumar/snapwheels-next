@@ -5,8 +5,8 @@ module.exports = {
     ignoreDuringBuilds: true,
   },
   images: {
-    loader: "imgix",
-    path: "https://noop/",
+    loader: "akamai",
+    path: "/",
   },
   reactStrictMode: true,
 }
