@@ -1,7 +1,8 @@
 import Link from "next/link";
 import Styles from "../styles/Fotter.module.css";
-import {FaInstagram,FaFacebookSquare,FaTwitterSquare,FaHeart,FaInstagramSquare} from "react-icons/fa";
-
+import {FaFacebookSquare,FaTwitterSquare,FaHeart,FaInstagramSquare} from "react-icons/fa";
+import Image from "next/image";
+import logo from "../Images/snapwheels_logo.png"
 const Fotter = () =>{
     return(
         <section className="ffooter">
@@ -22,14 +23,14 @@ const Fotter = () =>{
                     </div>
                     <div className="col l4 offset-l2 s12">
                         <br />
-                    <ul>
-                        <li><Link href="/termsandconditions" ><p className={Styles.footerLinkText}>Terms and Condition</p></Link></li>
-                        <li><Link href="/privacypolicy"><p className={Styles.footerLinkText}>Privacy Policy</p></Link></li>
-                        {/* <li><Link className="grey-text text-lighten-3" href="/refundpolicy">Refund Policy</Link></li> */}
-                       
-                    </ul>
-                    <br />
-                    {/* <img src={mii} alt="Make in India" height={50} width={100}></img> */}
+                        <ul>
+                            <li><Link href="/termsandconditions" ><p className={Styles.footerLinkText}>Terms and Condition</p></Link></li>
+                            <li><Link href="/privacypolicy"><p className={Styles.footerLinkText}>Privacy Policy</p></Link></li>
+                            {/* <li><Link className="grey-text text-lighten-3" href="/refundpolicy">Refund Policy</Link></li> */}
+                        
+                        </ul>
+                        <br />
+                        <Image src={logo} alt="Snapwheels Logo" height={60} width={80}></Image>
                     </div>
                 </div>
                 </div>
