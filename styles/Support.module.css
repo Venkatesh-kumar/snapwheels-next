@@ -1,0 +1,12 @@
+
+.bannerContainer{
+    color: #009387;
+}
+
+
+.carouselcontainer {
+    margin-bottom: 50px;
+    border: 2px solid #009387;
+    border-radius: 15px;
+    border-style: dashed;
+  }
