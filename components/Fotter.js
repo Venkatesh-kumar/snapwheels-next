@@ -30,7 +30,7 @@ const Fotter = () =>{
                         
                         </ul>
                         <br />
-                        <Image src={logo} alt="Snapwheels Logo" height={60} width={80}></Image>
+                        <Image src={logo} alt="Snapwheels Logo" height={50} width={80}></Image>
                     </div>
                 </div>
                 </div>
