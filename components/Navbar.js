@@ -25,7 +25,7 @@ export default function Navbar(){
                         <a href="#" data-target="mobile-demo" className="sidenav-trigger hide-on-med-and-up"><FaBars size={24} round={true} /></a>
                         <ul id="nav-mobile" className="right  hide-on-med-and-down ">
                             <li ><Link href="/" >Home</Link></li>
-                            <li ><Link href="/tariff" >Tariff</Link></li>
+                            {/* <li ><Link href="/tariff" >Tariff</Link></li> */}
                            <li ><Link href="/support">Support</Link></li>
                            <li > <Button className="btn" onClick={()=>window.open('https://play.google.com/store/apps/details?id=com.snapwheels','_blank' )}>Download App</Button></li>
                         </ul>

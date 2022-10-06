@@ -13,11 +13,11 @@ export default function Layout({children}){
                 <meta name="theme-color" content="#009387"/>
                 <meta name="msvalidate.01" content="F6DE7074B46F9AD4D0FA9A2775CB1232" />
                 
-                <meta property="og:title" content="Rent bikes in Bangalore and 40+ other cities!"/>
+                <meta property="og:title" content="Rent bicycles in Bangalore and 40+ other cities!"/>
                 <meta property="og:type" content="website" />
                 <meta property="og:url" content="https://www.snapwheels.online/bike-rentals" />
                 <meta property="og:image" content="https://www.snapwheels.online/_next/static/media/model.f4eb9f3d.png" />
-                <meta property="og:description" content="Get a well maintained bike from the most trusted bike rentals in India! " />
+                <meta property="og:description" content="Get a well maintained bicycles from the most trusted bike rentals in India! " />
                 <meta property="og:image:width" content="1200px" />
                 <meta property="og:image:height" content="630px" />
                

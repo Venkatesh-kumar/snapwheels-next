@@ -1,7 +1,7 @@
 
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-import Duke from "../Images/Duke_200.png"
+import Hero from "../Images/Hero.png"
 import {FaPiggyBank} from "react-icons/fa"
 import Android from "../Images/android.png"
 import model from "../Images/model.png"
@@ -24,23 +24,22 @@ const data = {
   title: "Frequently asked questions",
   rows: [
       {
-          title: "What documents are needed to book a vehicle?",
-          content: `1. Original/Digilocker Driving License( For verification) <br />
-          2.College ID / Employment Proof<br/>
-          3.Any government issued ID need to be submitted at the pickup location for the booking period.`,
+          title: "What documents are needed to book a bicycle?",
+          content: `
+          1. Any government issued original ID need to be submitted at the pickup location for the booking period.`,
       },
-      {
-          title: "Is fuel included in the tariff?",
-          content:
-              "No. The tariff doesn’t include fuel. Customers should return the vehicle with similar level of tank-fill they received during the time of pick-up.",
-      },
+    //   {
+    //       title: "Is fuel included in the tariff?",
+    //       content:
+    //           "No. The tariff doesn’t include fuel. Customers should return the vehicle with similar level of tank-fill they received during the time of pick-up.",
+    //   },
       {
           title: "Can I cancel my booking?",
           content: `You can cancel the booking, however the cancellation charges will be levied. Check T&C for more details. `,
       },
       {
           title: "What is the minimum or maximum rental period?",
-          content: `Even though you can reserve a vehicle for one hour, a minimum tariff for 6 hrs will be applicable. The maximum booking duration is 6 months after which the rentals can be renewed.`,
+          content: `Even though you can reserve a vehicle for one day, a minimum tariff for one week will be applicable. The maximum booking duration is 6 months after which the rentals can be renewed.`,
       },
       {
           title: "Will I get complimentary helmet?",
@@ -148,14 +147,14 @@ export default function Home() {
                     <div className="row container">
                         <div className="col s12 l6 m6 center">
                             <div >
-                                <Image src={Duke} alt="Snapwheels" className={styles.displayImages} height="200" width="350"></Image>
+                                <Image src={Hero} alt="Snapwheels" className={styles.displayImages} height="200" width="350"></Image>
                             </div>
                         </div>
                         <div className="col s12 l6 m6 left ">
                             <div data-aos="fade-up">
                                 <h3 className="center" style={{color:"#009387",fontWeight:'bold'}}>Well Maintained</h3>
                                 <br />
-                                <h5 className="left">All Snapwheels bikes are maintained so well you will feel like you are riding brand new!</h5>
+                                <h5 className="left">All Snapwheels bicycles are maintained so well you will feel like you are riding brand new!</h5>
                                 <h5 className="left">Regular checkups and inspections will be done by our in-house mechanics.</h5>
                                </div>
                         </div>
@@ -170,13 +169,13 @@ export default function Home() {
                             <div data-aos="fade-up">
                                 <h3 className="center" style={{color:"#fff",fontWeight:'bold'}}>Wallet friendly</h3>
                                 <br />
-                                <h5 className="left">Wide range of bikes are provided at best prices. Select your favourite ride without any compromise!</h5>
+                                <h5 className="left">Wide range of bicycles are available at best prices. Select your favourite ride without any compromise!</h5>
                                 <h5 className="left">You can save more by using our latest offers. Visit offers section to know more.</h5>
                                </div>
                         </div>
                         <div className="col s12 l6 m6 center">
                             <div >
-                                <FaPiggyBank size={160} className={styles.displayImages}  color="#000"></FaPiggyBank>
+                                <FaPiggyBank size={160} className={styles.displayImages}  color="pink"></FaPiggyBank>
                             </div>
                         </div>
                     </div>
@@ -210,13 +209,13 @@ export default function Home() {
                             <div data-aos="fade-up">
                                 <h3 className="center" style={{color:"#fff",fontWeight:'bold'}}>Home delivery</h3>
                                 <br />
-                                <h5 className="left">We deliver the bike you love straight to your home with just one click</h5>
-                                <h5 className="left">We deliver bike on-time right at your doorstep so that your adventure will start from exactly where you want.</h5>
+                                <h5 className="left">We deliver the bicycles you love straight to your home with just one click</h5>
+                                <h5 className="left">We deliver on-time right at your doorstep so that your adventure will start from exactly where you want.</h5>
                                </div>
                         </div>
                         <div className="col s12 l6 m6 center">
                              <div >
-                                <Image src={model} alt="Snapwheels" className={styles.displayImages} height="200" width="350"></Image>
+                                <Image src={model} alt="Snapwheels" className={styles.displayImages} height="300" width="350"></Image>
                             </div>
                         </div>
                     </div>
@@ -236,10 +235,10 @@ export default function Home() {
                     </div>
                     <div className='col s12 m12 l6'>
                         <h1 className={styles.howitworks}>How it works?</h1>
-                        <p className={styles.howhelpertext}>1. Select and book your bike through app.</p>
-                        <p className={styles.howhelpertext}>2. Navigate to the pickup location to collect your bike.</p>
+                        <p className={styles.howhelpertext}>1. Select and book your bicycle through app.</p>
+                        <p className={styles.howhelpertext}>2. Navigate to the pickup location to collect your bicycle.</p>
                         <p className={styles.howhelpertext}>3. Enjoy your adventurous trip with smooth and hassle free ride.</p>
-                        <p className={styles.howhelpertext}>4. Return the bike at drop location to end the ride.</p>
+                        <p className={styles.howhelpertext}>4. Return the bicycle at drop location to end the ride.</p>
                         <Button className="btn large downloadButton" onClick={()=>window.open('https://play.google.com/store/apps/details?id=com.snapwheels','_blank' )}>BOOK A RIDE</Button>
                     </div>
                 </div>
